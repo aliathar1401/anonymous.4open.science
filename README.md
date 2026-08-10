@@ -56,7 +56,7 @@ Span-level agreement between both models determines confidence: agreed spans rec
 
 ```bash
 # Clone the repository
-git clone https://anonymous.4open.science/r/XXXXXXXX/
+git clone https://anonymous.4open.science/r/shroom-visions-2026-skstars
 cd shroom-visions-2026
 
 # Create conda environment
