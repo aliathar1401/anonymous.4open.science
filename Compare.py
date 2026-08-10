@@ -2,11 +2,8 @@ import json
 from collections import Counter
 
 files = {
-    "Zero-shot 72B (baseline)" : "predictions_en_final.jsonl",
-    "Finetuned 7B"             : "predictions_en_finetuned_clean.jsonl",
-    "Ensemble (72B+7B)"        : "predictions_en_ensemble.jsonl",
+    "Ensemble (72B+7B) — Submitted" : "predictions_en_ensemble.jsonl",
 }
-
 print(f"{'File':<30} {'Hall%':>6} {'Spans':>6} {'Avg':>5} {'p=0.33':>7} {'p=0.67':>7} {'p=1.0':>7}")
 print("-"*75)
 
