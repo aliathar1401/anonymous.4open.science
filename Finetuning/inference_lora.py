@@ -21,7 +21,7 @@ from peft import PeftModel
 from qwen_vl_utils import process_vision_info
 
 # ── Config ────────────────────────────────────────────────────────────────────
-MODEL_PATH   = "/mnt/ssd2tb/models/Qwen2.5-VL-7B-Instruct"
+MODEL_PATH   = "Qwen/Qwen2.5-VL-72B-Instruct"
 LORA_DIR     = "./lora_weights_7b/checkpoint-800"   # best checkpoint
 TEST_FILE    = "../dataset/shroom-visions-data/distrib/english/shroom-vision.test.en.unlabeled.jsonl"
 IMAGES_DIR   = "../dataset/shroom-visions-images"
