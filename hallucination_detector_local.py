@@ -15,7 +15,7 @@ from transformers import Qwen2_5_VLForConditionalGeneration, AutoProcessor, Bits
 from qwen_vl_utils import process_vision_info
 
 # ── Config ────────────────────────────────────────────────────────────────────
-MODEL_PATH  = "/mnt/ssd2tb/models/Qwen2.5-VL-72B-Instruct"
+MODEL_PATH  = "Qwen/Qwen2.5-VL-72B-Instruct"
 TEST_FILE   = "dataset/shroom-visions-data/distrib/english/shroom-vision.test.en.unlabeled.jsonl"
 IMAGES_DIR  = "dataset/shroom-visions-images"
 OUTPUT_FILE = "predictions_en.jsonl"
